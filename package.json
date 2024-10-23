@@ -5,7 +5,9 @@
 
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node restpush.js"
+    "start": "node restpush.js",
+    "dev": "nodemon restpush.js",
+    "start:prod": "NODE_ENV=production nodemon restpush.js",
 
   },
   "keywords": [],
